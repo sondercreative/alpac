@@ -784,9 +784,10 @@ section.pageHead {
 		    			}
 		    		}
 					h2.dashStat {
-					  font-size: 1.2em;
+					  font-size: 1.6em;
 					  font-family: $font1;
 					  font-weight: bold;
+					  line-height: 1.4em;
 					    span {
 					    	color: $qc;
 					    	font-size: 1.6em;
@@ -919,14 +920,15 @@ section.pageHead {
 				font-size: .9em;
 				display: inline-block;
 				width: 100%;
+				font-weight: 500;
 				margin-bottom: 1rem;
 			}
 		}
 		.desc {
 			font-family: $font2;
 			color: $qc;
-			font-size: 1.1em;
-			font-weight: 600;
+			font-size: 1.5em;
+			font-weight: 500;
 		}
 		.accentLine {
 			content: '';
@@ -1005,7 +1007,7 @@ section.pageHead {
 	    	position: absolute;
 	    	bottom: 50%;
 	    	height: 1px;
-	    	    background-color: #d9d9d9;
+	    	    background-color: lighten($tc,30%);
 	    	left: 100%;
 	    	width: 100px;
 	    }
@@ -1014,13 +1016,13 @@ section.pageHead {
 	    	margin: 0;
 	    	li {
 	    		display: inline;
-	    		font-weight: 600;
-	    		color: #c5c5c5;
+	    		font-weight: 400;
+	    		color:$sc;
 	    		&.seperator {
 	    			padding: 0 4px;
 	    		}
 	    		a {
-	    			color: lighten($pc,8%);
+	    			color: $tc;
 	    		}
 	    	}
 	    }

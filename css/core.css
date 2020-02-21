@@ -9283,7 +9283,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   color: #4C515A;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
 strong {
@@ -9294,7 +9294,8 @@ strong {
 .lead {
   font-size: 1.2em;
   margin: 1rem 0 1rem;
-  line-height: 1.2em;
+  line-height: 1.4em;
+  opacity: 0.6;
 }
 
 .header p {
@@ -9312,6 +9313,12 @@ strong {
   font-family: "Montserrat", sans-serif !important;
 }
 
+.content ul {
+  list-style: disc outside;
+  margin-left: 1.2em;
+  margin-top: 1em;
+}
+
 .pc {
   color: #A3AA83;
 }
@@ -9325,25 +9332,55 @@ strong {
 }
 
 .qc {
-  color: #B0BF68;
+  color: #97AC39;
+}
+
+.green {
+  color: #478A2B;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Montserrat", sans-serif;
-  margin: 1rem 0 1rem;
+  margin: 1.2rem 0 1rem;
   line-height: 1.2em;
 }
 
+h2, .h2 {
+  font-weight: 500;
+}
+h2.intro, .h2.intro {
+  color: #B07156;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 h3, .h3 {
-  color: #B0BF68;
+  color: #97AC39;
+  font-weight: 500;
+}
+h3.intro, .h3.intro {
+  color: #B07156;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h4, .h4 {
-  color: #B0BF68;
+  color: #97AC39;
+  font-weight: 500;
+}
+h4.intro, .h4.intro {
+  color: #B07156;
+  font-size: 1.1rem;
 }
 
 h5, .h5 {
-  color: #B0BF68;
+  font-weight: 500;
+}
+h5.intro, .h5.intro {
+  color: #B07156;
+  font-size: 1rem;
 }
 
 p {
@@ -10422,12 +10459,13 @@ section.pageHead.inner .dashboard .container .columns {
   }
 }
 section.pageHead.inner .dashboard .container .columns h2.dashStat {
-  font-size: 1.2em;
+  font-size: 1.6em;
   font-family: "Domine", serif;
   font-weight: bold;
+  line-height: 1.4em;
 }
 section.pageHead.inner .dashboard .container .columns h2.dashStat span {
-  color: #B0BF68;
+  color: #97AC39;
   font-size: 1.6em;
   display: inline-block;
   width: 100%;
@@ -10529,13 +10567,13 @@ section.pageHead .headContent span.hl {
   font-family: "Domine", serif;
   font-weight: bold;
   font-size: 1.3em;
-  color: #B0BF68;
+  color: #97AC39;
 }
 section.pageHead .headContent a {
-  color: #B0BF68;
+  color: #97AC39;
 }
 section.pageHead .headContent .sectionNo {
-  color: #B0BF68;
+  color: #97AC39;
   font-weight: 600;
 }
 section.pageHead .headContent h1 {
@@ -10543,18 +10581,19 @@ section.pageHead .headContent h1 {
   line-height: 1.2em;
 }
 section.pageHead .headContent h1 span {
-  color: #B0BF68;
+  color: #97AC39;
   font-family: "Montserrat", sans-serif;
   font-size: 0.9em;
   display: inline-block;
   width: 100%;
+  font-weight: 500;
   margin-bottom: 1rem;
 }
 section.pageHead .headContent .desc {
   font-family: "Montserrat", sans-serif;
-  color: #B0BF68;
-  font-size: 1.1em;
-  font-weight: 600;
+  color: #97AC39;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 section.pageHead .headContent .accentLine {
   content: "";
@@ -10630,7 +10669,7 @@ section.pageHead #breadcrumb::after {
   position: absolute;
   bottom: 50%;
   height: 1px;
-  background-color: #d9d9d9;
+  background-color: #7a7a7a;
   left: 100%;
   width: 100px;
 }
@@ -10640,14 +10679,14 @@ section.pageHead #breadcrumb ul {
 }
 section.pageHead #breadcrumb ul li {
   display: inline;
-  font-weight: 600;
-  color: #c5c5c5;
+  font-weight: 400;
+  color: #478A2B;
 }
 section.pageHead #breadcrumb ul li.seperator {
   padding: 0 4px;
 }
 section.pageHead #breadcrumb ul li a {
-  color: #b5bb9b;
+  color: #2D2D2D;
 }
 
 /* ==========================================================================
@@ -10947,6 +10986,7 @@ body.resize-animation-stopper * {
 hr {
   background-color: #d9d9d9;
   height: 1px;
+  margin: 2.5rem 0 3rem;
 }
 
 .bottomAlign {
@@ -11044,16 +11084,54 @@ section.section.grey.pretty::after {
           box-shadow: 10px 0 0 #fff, -10px 0 0 #fff;
 }
 
-.fscLockup {
+.fscLockup.columns {
+  margin: 0;
+  color: #478A2B;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: normal;
+}
+.fscLockup.columns:not(:first-child) {
+  margin-top: 40px;
+}
+.fscLockup.columns:not(:last-child) {
+  margin-bottom: 40px;
+}
+.fscLockup.columns .column {
+  padding: 0;
+}
+.fscLockup.columns .fscContent {
+  background-color: #EEEFED;
+  padding: 12px 24px;
+}
+.fscLockup.columns .fscContent.whiteBg {
+  background-color: #fff;
+}
+.fscLockup.columns .fscBg {
+  background-image: url(../img/FSC-BG.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.fscLockup img {
+.fscLockup.columns .fscBg img {
   width: 60px;
   max-width: 40%;
-  opacity: 0.5;
+  margin-left: -3%;
+}
+.fscLockup.columns .fscTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: "Domine", serif;
 }
 
 .featureText span {

@@ -10,7 +10,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   color: $textColor;
-  line-height: 1.5em;
+  line-height: 1.6em;
 
 }
 
@@ -22,7 +22,8 @@ strong {
 .lead {
   font-size: 1.2em;
   margin: 1rem 0 1rem;
-  line-height: 1.2em;
+  line-height: 1.4em;
+  opacity: .6;
 }
 
 .header {
@@ -41,7 +42,11 @@ strong {
 .sans {
   font-family: $font2!important;
 }
-
+.content ul {
+  list-style: disc outside;
+  margin-left: 1.2em;
+  margin-top: 1em;
+}
 .pc {
   color: $pc;
 }
@@ -55,9 +60,13 @@ strong {
   color: $qc;
 }
 
+.green {
+  color: $sc;
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $font2;
-  margin: 1rem 0 1rem;
+  margin: 1.2rem 0 1rem;
   line-height: 1.2em;
 }
 
@@ -67,19 +76,43 @@ h1, .h1 {
 }
 
 h2, .h2 {
-
+  font-weight: 500;
+  &.intro {
+    color: $nc;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 }
 
 h3, .h3 {
   color: $qc;
+  font-weight: 500;
+  &.intro {
+    color: $nc;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 }
 
 h4, .h4 {
   color: $qc;
+  font-weight: 500;
+  &.intro {
+    color: $nc;
+    font-size: 1.1rem;
+
+  }
 }
 
 h5, .h5 {
-  color: $qc;
+  font-weight: 500;
+  &.intro {
+    color: $nc;
+    font-size: 1rem;
+
+  }
 }
 
 

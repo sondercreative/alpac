@@ -111,16 +111,18 @@
 				<h2>Introduction</h2>
 			    <p>Monitoring biodiversity is an important part of Al-Pac’s responsible forest management strategy to evaluate the effectiveness of management actions and continually improve results. The ABMI is part of Alberta’s monitoring systems. We measure the health of biodiversity and changes in human land use (i.e. human footprint) in Alberta, including the Al-Pac FMA area. Our biodiversity data and human footprint data are designed to assess whether forest management activities are meeting their goal of maintaining species in the presence of other cumulative effects, such as energy development in the boreal forest.</p>
 
-				<p>This report is the five year update on the status of biodiversity in the Al-Pac FMA area, the third update since status was first assessed in 2009 and updated in 2015.<sup>[1,2]</sup> In this report, we describe the status of land cover, species, and habitat elements in the Al-Pac FMA area using field data collected between 2003 and 2017, and human footprint data available from 1999 to 2017. We examine the status of hundreds of species and highlight results for those species that are associated with old deciduous and mixedwood forest. We also assess the status of non-native species, and species designated as at risk. We summarize the status of habitat elements, core natural habitat, and area of human footprint including information on the trend of human footprint over the past 18 years. Information from this report can be used as a foundation for evaluating the sustainability of forest management practices that are designed to maintain biodiversity in the Al-Pac FMA area.</p>
+				<p>This report is the five year update on the s tatus of biodiversity in the Al-Pac FMA area, the third update since status was first assessed in 2009 and updated in 2015.<sup>[1,2]</sup> In this report, we describe the status of land cover, species, and habitat elements in the Al-Pac FMA area using field data collected between 2003 and 2017, and human footprint data available from 1999 to 2017. We examine the status of hundreds of species and highlight results for those species that are associated with old deciduous and mixedwood forest. We also assess the status of non-native species, and species designated as at risk. We summarize the status of habitat elements, core natural habitat, and area of human footprint including information on the trend of human footprint over the past 18 years. Information from this report can be used as a foundation for evaluating the sustainability of forest management practices that are designed to maintain biodiversity in the Al-Pac FMA area.</p>
 
 			    <div class="columns fscLockup">
-			    	<div class="column is-one-third has-text-centered">
-		    			<img src="img/content/FSC-Logo.svg">
-		    			<p>FSC Indicators  6.1.1 and 6.1.5</p>
+			    	<div class="column is-3 has-text-centered">
+						<div class="fscBg">
+		    				<img src="img/content/FSC-Logo.svg">
+						</div>
 			    	</div>
-			    	<div class="column is-two-thirds dividerLeft">
-			    		<p class="featureText green">
-			    			<span>ABMI data and reporting broadly support by providing ‘best available information’ with up-to-date, scientifically credible monitoring data that assists in identifying the status of local and regional environmental values and tracking changes within the FMA and in the AEI.</span>
+			    	<div class="column is-9 fscContent">
+						<p class='fscTitle'>FSC Indicators  6.1.1 and 6.1.5</p>
+			    		<p>
+			    			ABMI data and reporting broadly support by providing ‘best available information’ with up-to-date, scientifically credible monitoring data that assists in identifying the status of local and regional environmental values and tracking changes within the FMA and in the AEI.
 			    		</p>
 			    	</div>
 			    </div>
@@ -455,18 +457,19 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 
 			
-				    <div class="columns fscLockup">
-				    	<div class="column is-one-third has-text-centered">
-			    			<img src="img/content/FSC-Logo.svg">
-			    			<p>FSC Indicator 6.5.7</p>
-				    	</div>
-				    	<div class="column is-two-thirds dividerLeft">
-				    		<p class="featureText green">
-				    			<span>Reporting on protected areas within FMA broadly supports FSC Indicator 6.5.7 on the Conservation Areas Network by providing information on biodiversity intactness and providing best available scientific information to inform conservation targets.</span>
-				    		</p>
-				    	</div>
-				    </div>
-
+					<div class="columns fscLockup">
+						<div class="column is-3 has-text-centered">
+							<div class="fscBg">
+								<img src="img/content/FSC-Logo.svg">
+							</div>
+						</div>
+						<div class="column is-9 fscContent whiteBg">
+							<p class='fscTitle'>FSC Indicators  6.1.1 and 6.1.5</p>
+							<p>
+								ABMI data and reporting broadly support by providing ‘best available information’ with up-to-date, scientifically credible monitoring data that assists in identifying the status of local and regional environmental values and tracking changes within the FMA and in the AEI.
+							</p>
+						</div>
+					</div>
 
 
 				</div>
