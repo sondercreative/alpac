@@ -1,0 +1,212 @@
+/* ==========================================================================
+Typography
+========================================================================== */
+
+@import '_variables';
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: $font1;
+  font-weight: normal;
+  font-size: 14px;
+  color: $textColor;
+  line-height: 1.5em;
+
+}
+
+strong {
+  font-weight: bold;
+  color: inherit;
+}
+
+.lead {
+  font-size: 1.2em;
+  margin: 1rem 0 1rem;
+  line-height: 1.2em;
+}
+
+.header {
+  p {
+    margin: 0;
+  }
+}
+
+.serif {
+  font-family: $font1!important;
+  .elementor-heading-title {
+    font-family: $font1!important;
+  }
+}
+
+.sans {
+  font-family: $font2!important;
+}
+
+.pc {
+  color: $pc;
+}
+.sc {
+  color: $sc;
+}
+.tc {
+  color: $tc;
+}
+.qc {
+  color: $qc;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $font2;
+  margin: 1rem 0 1rem;
+  line-height: 1.2em;
+}
+
+
+h1, .h1 {
+
+}
+
+h2, .h2 {
+
+}
+
+h3, .h3 {
+  color: $qc;
+}
+
+h4, .h4 {
+  color: $qc;
+}
+
+h5, .h5 {
+  color: $qc;
+}
+
+
+
+p {
+  margin: 1rem 0 1rem;
+  &.percent {
+    font-weight: bold;
+    font-size: 1.5em;
+    display: inline-block;
+  }
+  &.stat {
+    font-family: $font2;
+  }
+  .icon {
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+}
+
+.statistics {
+  margin-top: 40px;
+    p {
+      &.percent {
+        margin-bottom: 0;
+        width: 100%;
+      }
+      &.stat {
+        margin-top: 0;
+        font-family: $font2;
+      }
+      .icon {
+        float: none;
+        margin: 20px auto 0;
+      }
+    }
+
+}
+
+
+blockquote {
+
+}
+
+
+a, a:link , a:visited {
+  color: $sc;
+}
+
+
+ 
+a:hover {
+  color: darken($pc,15%);
+}
+
+
+
+.button, .button:link, .button:visited, .button[data-mce-selected]{
+  border-radius:0;
+  font-size: .9em;
+  font-weight: 400;
+  letter-spacing: .06em;
+  padding: 10px 28px;
+  height: auto;
+  cursor: pointer;
+      margin: 8px 0;
+      white-space: normal;
+    &.is-primary {
+      background-color: $sc;
+      border: 1px solid $sc;
+      color: #fff;
+      &:hover {
+        background-color: darken($sc,8%);
+        border-color: darken($sc,8%);
+      }
+    }
+    &.is-secondary {
+      background-color: $pc;
+      border: 1px solid $pc;
+      color: #fff;
+      &:hover {
+        background-color: darken($pc,8%);
+        border-color: darken($pc,8%);
+      }
+    }
+    &.inverted {
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      &:hover {
+        background-color: #fff;
+        border: 1px solid #fff;
+        color: $pc;
+      }
+    }
+    &.fullwidth {
+      width: 100%;
+    }
+}
+
+
+figure {
+  figcaption {
+    font-size: .8em;
+    color: $sc;
+    margin: 1rem 0;
+    font-family: $font2;
+    line-height: 1.4em;
+  }
+  img.shadow {
+    box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+  }
+}
+
+div.treeWrap {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/trees-divide-white.svg);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
