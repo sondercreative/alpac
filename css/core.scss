@@ -464,4 +464,51 @@ table.table {
 		    opacity: .8;
 	}
 }
+
+
+// Featherlight adjustments
+.featherlight .featherlight-close-icon {
+	line-height: 50px;
+	width: 50px;
+	font-size: 1.6em;
+}
+
+.card {
+	height: 100%;
+	
+	.icon {
+		margin: 1rem auto;
+		display: block;
+	}
+
+	&.has-icon {
+		height: calc(100% - 4rem);
+		margin-top: 4rem;
+		.icon {
+			margin-top: -5rem;
+		}
+		
+		@include touch {
+			height: calc(100% - 3rem);
+			margin-top: 3rem;
+
+			.icon {
+				margin-top: -4rem;
+			}
+		}
+	}
+}
+
+.icon.is-huge {
+	width: 7rem;
+	height: 7rem;
+	@include touch {
+		width: 5rem;
+		height: 5rem;
+	}
+}
+
+
+
+
 @import '_includes/_print';

@@ -397,8 +397,145 @@
 
 			</div>
 		</div>
-		
+
+		<hr>
+		<h2>Example cards / InfoBoxes</h2>
+		<div class="columns">
+			<div class="column is-4">
+				<div class="card">
+					<div class="card-image">
+						<figure class="image">
+						<img src="img/placeholder-landscape.jpg" alt="Placeholder image">
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="content">
+							<h3>This is a title placeholder</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
+							<p><a href="#">View More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-4">
+				<div class="card">
+					<div class="card-image">
+						<figure class="image">
+						<img src="img/placeholder-landscape.jpg" alt="Placeholder image">
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="content">
+							<h3>This is a title placeholder</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum dos amet sellus nec iaculis mauris.</p>
+							<p><a href="#">View More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-4">
+				<div class="card">
+					<div class="card-image">
+						<figure class="image">
+						<img src="img/placeholder-landscape.jpg" alt="Placeholder image">
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="content">
+							<h3>This is a title placeholder</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
+							<p><a href="#">View More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+
+		<hr>
+		<h2>With no photos</h2>
+		<div class="columns">
+			<div class="column is-4">
+				<div class="card">
+					<div class="card-content">
+						<div class="content">
+							<h3>This is a title placeholder</h3>
+							<p>Lorem ipsum dolor sit amet, consecscing elit. Phasellus nec iaculis mauri etur adipiscing elit orem ipsum dos asellus nec iaculis mauris.</p>
+							<p><a href="#">View More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-4">
+				<div class="card">
+					<div class="card-content">
+						<div class="content">
+							<h3>This is a title placeholder</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
+							<p><a href="#">View More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-4">
+				<div class="card">
+					<div class="card-content">
+						<div class="content">
+							<h3>This is a title placeholder</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
+							<p><a href="#">View More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<hr>
+		<h2>With icon treatment</h2>
+		<div class="columns">
+			<div class="column is-4">
+				<div class="card has-icon">
+					<div class="card-content">
+						<div class="content has-text-centered">
+							<img class="icon is-huge" src="img/Forestry Icon Reverse.svg">
+							<h3>This is a title placeholder</h3>
+							<p>Lorem ipsum dolor sit amet, consecscing elit. Phasellus nec iaculis mauri etur adipiscing elit orem ipsum dos asellus nec iaculis mauris.</p>
+							<p><a href="#">View More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-4">
+				<div class="card has-icon">
+					<div class="card-content">
+						<div class="content has-text-centered">
+							<img class="icon is-huge" src="img/Forestry Icon Reverse.svg">
+							<h3>This is a title placeholder</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
+							<p><a href="#">View More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-4">
+				<div class="card has-icon">
+					<div class="card-content">
+						<div class="content has-text-centered">
+							<img class="icon is-huge" src="img/Forestry Icon Reverse.svg">
+							<h3>This is a title placeholder</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
+							<p><a href="#">View More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
 	</div>
+
+	
+	</div>
+
 </section>
 <!-- Grey silhouette wrapped -->
 

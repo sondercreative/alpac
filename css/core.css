@@ -9404,16 +9404,40 @@ p .icon {
   margin-top: 40px;
 }
 .statistics p.percent {
-  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 2.5em;
   width: 100%;
+  line-height: normal;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 1023px) {
+  .statistics p.percent {
+    font-size: 2em;
+  }
 }
 .statistics p.stat {
   margin-top: 0;
   font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
 }
-.statistics p .icon {
+@media screen and (max-width: 1023px) {
+  .statistics p.stat {
+    font-size: 1em;
+  }
+}
+.statistics .icon {
   float: none;
   margin: 20px auto 0;
+}
+.statistics .icon.is-large {
+  height: 7rem;
+  width: 7rem;
+}
+@media screen and (max-width: 1023px) {
+  .statistics .icon.is-large {
+    height: 5rem;
+    width: 5rem;
+  }
 }
 
 a, a:link, a:visited {
@@ -9672,6 +9696,26 @@ header.header {
 @media screen and (min-width: 1408px) {
   header.header {
     width: 140px;
+  }
+}
+header.header .infobutton {
+  position: absolute;
+  width: 30px;
+  left: 225px;
+  top: 15px;
+  z-index: 2;
+}
+@media screen and (max-width: 768px) {
+  header.header .infobutton {
+    left: 200px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header.header .infobutton {
+    top: 40px;
+    right: -53px;
+    left: auto;
+    z-index: -1;
   }
 }
 header.header .bookmark {
@@ -11395,4 +11439,45 @@ table.table.is-striped tbody tr:not(.is-selected):nth-child(even) {
 .partnerLogos img {
   width: 200px;
   opacity: 0.8;
+}
+
+.featherlight .featherlight-close-icon {
+  line-height: 50px;
+  width: 50px;
+  font-size: 1.6em;
+}
+
+.card {
+  height: 100%;
+}
+.card .icon {
+  margin: 1rem auto;
+  display: block;
+}
+.card.has-icon {
+  height: calc(100% - 4rem);
+  margin-top: 4rem;
+}
+.card.has-icon .icon {
+  margin-top: -5rem;
+}
+@media screen and (max-width: 1023px) {
+  .card.has-icon {
+    height: calc(100% - 3rem);
+    margin-top: 3rem;
+  }
+  .card.has-icon .icon {
+    margin-top: -4rem;
+  }
+}
+
+.icon.is-huge {
+  width: 7rem;
+  height: 7rem;
+}
+@media screen and (max-width: 1023px) {
+  .icon.is-huge {
+    width: 5rem;
+    height: 5rem;
+  }
 }

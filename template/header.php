@@ -39,6 +39,10 @@
 				</button>
 			</div>
 
+			<div class="infobutton">
+					<a href="#" data-featherlight="#info_popup"><img src="img/icon-info.svg" alt="Info Icon"></a>
+			</div>
+
 			<div class="siteTitle">
 				<div class="titleCenter">
 					<p>
@@ -210,6 +214,40 @@
 			</a>
 		</div>
 	</div>
+
+
+	<div style='display:none;'>
+		<section class="section" id="info_popup">
+			<div class="container has-text-centered">
+				<h2>Getting Started: How to Navigate the Report</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+				<hr>
+
+				<div class="columns">
+					<div class="column is-6-desktop is-full-tablet">
+						<h3>Main Menu</h3>
+						<p>The main menu is accessed through this icon. Our report is broken down into 4 chapters. From this menu, you can access each chapter, return to the hompage, or complete a search. </p>
+						<p class="has-text-tertiary">Tip: If you’re interested in the full Oil Sands Region Report, we encourage you to start from the beginning with Chapter 1: Introduction.</p>
+					</div>
+					<div class="column is-6-desktop is-full-tablet">
+						<h3>Page by Page</h3>
+						<p>The arrows at the bottom left-hand of your screen will sequentially take you through the report, page by page. For example, press the right arrow to move from Section 1.1 to Section 1.2. </p>
+						<p class="has-text-tertiary">Tip: The arrow toolbar expands when you are viewing a Chapter Section. You can quickly navigate down the section page by making a selection from the middle menu.  </p>
+					</div>
+				</div>
+
+				<div class="iconBreak">
+					<hr>
+					<img src="img/icon-info.svg" alt="Info Icon">
+				</div>
+
+				<h3>Information Guide</h3>
+				<p class="lead">This icon is present in the top right corner on each page of the OSR report. It provides the information above on how to navigate through the content. You can access this guide anytime without leaving the current page you’re visiting.</p>
+			</div>
+		</section>
+	</div>
+
 
 	<main class="content">
 

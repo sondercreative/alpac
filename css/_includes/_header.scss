@@ -25,6 +25,27 @@ header.header {
 	    width: 140px;
 	}
 
+
+	.infobutton {
+		position: absolute;
+		width: 30px;
+		left: 225px;
+		top: 15px;
+		z-index: 2;
+
+		@include mobile {
+			left: 200px;
+		}
+		@include desktop {
+			top: 40px;
+			right: -53px;
+			left: auto;
+			z-index: -1;
+		}
+	}
+
+
+
 	.bookmark {
 		height: 100%;
 		width: 100%;
